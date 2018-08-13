@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hannah Juraifani | Search</title>
+  <link rel="stylesheet" type="text/css" title="Stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme|Cabin" rel="stylesheet">
+</head>
+  <body>
+    <header>
+      <img class="headerImg" src="img/header/header.png"/>
+      <span class="menuIcon" onclick="openMenu()">&#9776;</span>
+    <!-- menu -->
+      <div id= "sideMenu" class="sideMenu">
+      <ul>
+      <li><a href="javascript:void(0)" class="close" onclick="closeMenu()">&times;</a></li>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="artwork.html">Artwork</a></li>
+       <li><a href="photography.html">Photography</a></li>
+       <li><a href="portfolio.html">Portfolio</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><div class="searchContainer">
+         <form action="search.php">
+           <input type="text" placeholder="Search..." name="search">
+           <button type="submit"><i class="fa fa-search"></i></button>
+         </form>
+       </div></li>
+     </ul>
+    </div>
+    <p class="logoTitle">Hannah Juraifani</p>
+    </header>
+    <div class="content">
+        <h1>Searching for... cats</h1>
+        <div class="searchPage">
+         <form action="search.php">
+           <input class="searchPageText" type="text" placeholder="Search..." name="search">
+           <button type="submit"><i class="fa fa-search"></i></button>
+         </form>
+        </div>
+        <div class="contain">
+            <div class="cate">
+                <h2>Space Cowboy</h2>
+                <a href="template-single.html"><img src="img/photos/preview/spaceKitty.png"/></a>
+                <p>A cat from Philadelphia's Kawaii Kitty Cafe. This cat gives some sort of cowboy vibe to me. Why space? ...</p>
+            </div>
+            <div class="cate">
+                <h2>Napping Kitty</h2>
+                <a href="template-single.html"><img src="img/photos/preview/nappingKitty.png"/></a>
+                <p>This is a napping cat found at Philadelphia's Kawaii Kitty Cafe...</p>
+            </div>
+            <div class="cate">
+                <h2>Through Another Dimension</h2>
+                <a href="template-single.html"><img src="img/photos/preview/dimCat.png"/></a>
+                <p>A cat found at Philadelphia's Kawaii Kitty Cafe. I like to think that this cat is dimension hopping...</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <p class="footerTitle">Created by Hannah Juraifani</p>
+      <div class="iconContain">
+        <a href="https://www.linkedin.com/in/hannah-juraifani-96329b159/"><img class="icon" src="img/icons/linkedin.png"/></a>
+        <a href="https://www.instagram.com/that1otacon/"><img class="icon" src="img/icons/instagram.png"/></a>
+      </div>
+    </footer>
+   <script src="js/main.js"></script>
+  </body>
+</html>

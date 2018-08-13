@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hannah Juraifani | Sidebar</title>
+  <link rel="stylesheet" type="text/css" title="Stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme|Cabin" rel="stylesheet">
+</head>
+  <body>
+    <header>
+      <img class="headerImg" src="img/header/header.png"/>
+      <span class="menuIcon" onclick="openMenu()">&#9776;</span>
+    <!-- menu -->
+      <div id= "sideMenu" class="sideMenu">
+      <ul>
+      <li><a href="javascript:void(0)" class="close" onclick="closeMenu()">&times;</a></li>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="artwork.html">Artwork</a></li>
+       <li><a href="photography.html">Photography</a></li>
+       <li><a href="portfolio.html">Portfolio</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><div class="searchContainer">
+         <form action="search.php">
+           <input type="text" placeholder="Search..." name="search">
+           <button type="submit"><i class="fa fa-search"></i></button>
+         </form>
+       </div></li>
+     </ul>
+    </div>
+    <p class="logoTitle">Hannah Juraifani</p>
+    </header>
+    <div class="content">
+        <div class="mainContent">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <div class="unorderList">
+                <ul>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+            </div>
+            <div class="orderList">
+                <ol>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                </ol>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin leo eu nunc tempor molestie. Etiam eu enim tristique ipsum rhoncus scelerisque quis nec tellus. Etiam finibus at mauris vitae fringilla. Integer finibus ultricies quam, eu mollis justo ultricies id. In felis nibh, accumsan vel faucibus quis, accumsan in nibh. Vivamus blandit bibendum turpis, a facilisis libero malesuada id. Nulla tristique elit ipsum, a ultrices augue bibendum quis. Quisque fringilla, lorem id ultricies tincidunt, turpis nulla lobortis ex, vitae viverra dolor quam vel purus. Donec molestie, velit eu mollis volutpat, felis orci vehicula nisi, sit amet luctus mi lacus sed eros. Nunc ultrices sit amet urna ac euismod. Integer a porttitor ante, quis sagittis quam. Integer hendrerit felis sit amet purus vehicula blandit.</p>
+
+            <p>Morbi quis ex sit amet risus tincidunt commodo nec a lectus. Nullam sed odio commodo, placerat leo sollicitudin, ornare velit. Vivamus ullamcorper at ipsum nec tempus. In euismod, arcu at pellentesque faucibus, lorem augue auctor arcu, quis fringilla urna enim sit amet magna. Donec venenatis magna eu eros porttitor euismod. Donec dignissim lobortis congue. Curabitur euismod eleifend ipsum, et suscipit elit lacinia et. Nam ac ipsum bibendum, scelerisque lectus ut, euismod nulla. Aliquam ex est, commodo eleifend neque molestie, ultricies pulvinar leo. Nulla dolor libero, sodales ut neque sed, posuere tempus nibh. Phasellus venenatis, nisi eu pretium ornare, <a href="#">Link to anotrher page</a> velit, a maximus ligula est in velit.</p>
+            
+            <table class="mainTable">
+              <tr>
+                <th colspan="3">Cats are...</th>
+              </tr>
+              <tr>
+                <td>Awesome</td>
+                <td>Great</td>
+                <td>Amazing</td>
+              </tr>
+              <tr>
+                <td>Prefect</td>
+                <td>Nice</td>
+                <td>Kawaii</td>
+              </tr>
+            </table>
+            
+            <div class="buttons">
+                <button class="button1">Button</button>
+                <button class="button2">Button</button>
+            </div>
+            
+            <div class="quote">
+                <h1>"Lorem ipsum dolor sit amet"</h1>
+                <p>-Lorem ipsum</p>
+            </div>
+            
+            <figure class="figurePic">
+              <img src="img/general/generalPic.png">
+              <figcaption>Caption for picture</figcaption>
+            </figure>
+            
+            <img class="video" src="img/general/generalVid.png"/>
+        </div>
+        <div class="sideBar">
+            <div class="tags">
+                <h1>Tags</h1>
+                <p>&#35;random   &#35;cats   &#35;fun   &#35;art   &#35;gaming</p>
+            </div>
+            <div class="recentWorksSide">
+                <h1>Recent Works</h1>
+                <div class="sidePics">
+                    <a href="template-single.html"><img src="img/photos/preview/spaceKitty.png"></a>
+                    <p>Space Cowboy</p>
+                </div>
+                <div class="sidePics">
+                    <a href="template-single.html"><img src="img/photos/preview/nappingKitty.png"></a>
+                    <p>Napping Kitty</p>
+                </div>
+            </div>
+            <div class="social">
+                    <h1>Social</h1>
+                    <a href="https://www.linkedin.com/in/hannah-juraifani-96329b159/"><img class="icon" src="img/icons/linkedin.png"/></a>
+                    <a href="https://www.instagram.com/that1otacon/"><img class="icon" src="img/icons/instagram.png"/></a>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+      <p class="footerTitle">Created by Hannah Juraifani</p>
+      <div class="iconContain">
+        <a href="https://www.linkedin.com/in/hannah-juraifani-96329b159/"><img class="icon" src="img/icons/linkedin.png"/></a>
+        <a href="https://www.instagram.com/that1otacon/"><img class="icon" src="img/icons/instagram.png"/></a>
+      </div>
+    </footer>
+   <script src="js/main.js"></script>
+  </body>
+</html>
