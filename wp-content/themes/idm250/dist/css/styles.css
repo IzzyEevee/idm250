@@ -345,7 +345,7 @@ template {
 html{
   height: 100%;
   font-size: 100%;
-    margin: 0 !important;
+  
 }
 /********HEADER*********/
 .headerImg{
@@ -634,7 +634,8 @@ ul{
 .cate{
     font-family: 'Cabin', sans-serif;
     padding: 2%;
-    width: 100%;
+    display: inline-block;
+    width: 90%;
 }
 
 @media screen and (min-width: 768px){
@@ -857,3 +858,7 @@ iframe{
 .social img{
     width: 25%;
 }
+
+
+
+
