@@ -65,3 +65,4 @@ function register_widgets()
 }
 
 add_action('widgets_init', 'register_widgets');
+add_theme_support('post-thumbnails');
